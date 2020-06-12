@@ -66,12 +66,6 @@ function testFunc() {
       { year: "1960", result: "N/A"}
     ]
 
-function superbowlWin(records){
-let array = records.find(record => record.result === "W") 
-   
-return array? array.year : undefined
-}
-
 
 function superbowlWin(records){
    let arr = records.find(record => record.result === "W")
