@@ -66,10 +66,10 @@ function testFunc() {
       { year: "1960", result: "N/A"}
     ]
 
-//function superbowlWin(records){
-//let array = records.find(record => record.result === "W") 
+function superbowlWin(records){
+let array = records.find(record => record.result === "W") 
    
-//return array? array.year : undefined
+return array? array.year : undefined
 }
 
 
